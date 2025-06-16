@@ -11,7 +11,7 @@ public class AddStudent extends JFrame {
         setTitle("Add Student");
         setSize(400, 300);
         setLayout(new GridLayout(5, 2));
-        setDefaultCloseOperation(DISPOSE_ON_CLOSE); // only closes this window
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
         add(new JLabel("Student Name:"));
         nameField = new JTextField();
